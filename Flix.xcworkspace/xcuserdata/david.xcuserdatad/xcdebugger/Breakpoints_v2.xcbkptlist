@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3CFD42FC-7839-462D-9E68-A30DE83D991A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2A9F3CD-076C-4BB0-97C1-708ABD3E0AD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C901764-797E-4F56-B329-0FEE515CFFD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0791E4E0-10D5-419B-BC2B-00065052D102"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MovieTrailerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "loadTrailer(videoKey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30C58AC4-F485-4ABC-A191-C46374BD5B89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MovieTrailerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "loadTrailer(videoKey:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30C58AC4-F485-4ABC-A191-C46374BD5B89 - 9bd8f1a6ab2429ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MovieTrailerViewController.loadTrailer(videoKey: Swift.String) -&gt; ()"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/CST495/Flix/Flix/MovieTrailerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "999">
+               </Location>
+               <Location
+                  uuid = "30C58AC4-F485-4ABC-A191-C46374BD5B89 - b595afb4656fa2f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Flix.MovieTrailerViewController.loadTrailer(videoKey: Swift.String) -&gt; ()"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/CST495/Flix/Flix/MovieTrailerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F97C6DC-CB79-48C5-8986-13C7446C7E78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MovieTrailerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadTrailer(videoKey:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F97C6DC-CB79-48C5-8986-13C7446C7E78 - 9bd8f1a6ab2429ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flix.MovieTrailerViewController.loadTrailer(videoKey: Swift.String) -&gt; ()"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/CST495/Flix/Flix/MovieTrailerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1107">
+               </Location>
+               <Location
+                  uuid = "0F97C6DC-CB79-48C5-8986-13C7446C7E78 - b595afb4656fa2f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Flix.MovieTrailerViewController.loadTrailer(videoKey: Swift.String) -&gt; ()"
+                  moduleName = "Flix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/CST495/Flix/Flix/MovieTrailerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91F4BDCE-E053-4259-B9D8-F38F1E909917"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MovieTrailerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loadTrailer(videoKey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0475F999-225C-4FDD-9D6E-9B62CD830FE8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flix/MovieTrailerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadTrailer(videoKey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

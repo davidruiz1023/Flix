@@ -18,12 +18,11 @@ class customMovieCell: UITableViewCell {
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    
-    
+    var dataManager = HTTPRequestHandler()
+    var movies: [Movie] = []
     
     @IBOutlet weak var moviesTableView: UITableView!
-    var dataManager = HTTPRequestHandler()
-    var apiURL = "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"
-    var movies: [Movie] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +30,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         moviesTableView.delegate = self
         
         // Do any additional setup after loading the view.
-        dataManager.downloadMovieData(from: apiURL) { (movieList: [Movie]) in // Object received from closure
+        dataManager.downloadMovieData(from: APIURLS.nowPlayingMoviesURL) { (movieList: [Movie]) in // Object received from closure
             DispatchQueue.main.async {
                 self.movies.append(contentsOf: movieList)
                 self.moviesTableView.reloadData()
@@ -44,6 +43,19 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             }
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "MovieDetailsSegue" {
+            let cell = sender as! UITableViewCell
+            let indexPath = moviesTableView.indexPath(for: cell)!
+            let movie = movies[indexPath.row]
+            
+            let movieDetailsViewController = segue.destination as! MovieDetailsViewController
+            movieDetailsViewController.movie = movie
+            moviesTableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
 
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,7 +64,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
        
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell") as! customMovieCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! customMovieCell
         
         cell.movieTitle.text = movies[indexPath.row].title
         cell.movieDescription.text = movies[indexPath.row].overview
